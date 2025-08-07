@@ -1,0 +1,20 @@
+CLASS zcl_fabap_jul2025_demo01_mast DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+  INTERFACES if_oo_adt_classrun.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS ZCL_FABAP_JUL2025_DEMO01_MAST IMPLEMENTATION.
+
+
+  METHOD if_oo_adt_classrun~main.
+    out->write( |Hello World!| ).
+  ENDMETHOD.
+ENDCLASS.
